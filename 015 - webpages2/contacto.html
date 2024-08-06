@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <!--el "./" es para asegurarnos de que busque el archivo en la misma carpeta en que estamos. si queremos subir, es ../, y seguir subiendo es ../../ -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            <form action=""><!--en action pondremos el código para procesar la data del form, luego del "submit"-->
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="text" id="email" name="e-mail" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="e-mail" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Pie de página con información de contacto y enlaces de interés</p>
+    </footer>
+</body>
+
+</html>
