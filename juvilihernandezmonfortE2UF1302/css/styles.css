@@ -1,0 +1,37 @@
+body {
+    background-color: #fff; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #5a5a5a;
+    margin: 2rem 5rem;
+}
+
+img {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+video {
+    max-width: 500px;
+}
+
+button#form-send {
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    background-color: #6618af;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+form input {
+    width: 100%;
+    max-width: 300px;
+}
+
+form textarea {
+    width: 100%;
+    max-width: 300px;
+}
