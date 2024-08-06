@@ -6,32 +6,66 @@
     <title>Portafolio</title>
 </head>
 <body>
-    <header>
-
+    <header id="head">
+        <h1>Portafolio de Proyectos</h1>
+        <nav>
+            <ul>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contáctame</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h2>Proyectos</h2>
-        <section>
-            <h3>Proyecto web</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quasi tenetur tempora cupiditate placeat temporibus officiis ipsa quae fuga suscipit. Ab veniam non asperiores fugiat sunt iusto, esse neque id!</p>
-            <img src="" alt="">
-            <a href="#">más detalles...</a>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Proyecto web: Gestión de tareas</h3>
+                <img src="https://via.placeholder.com/300" alt="Imagen del proyecto web de gestión de tareas">
+                <p>Descripción: Una aplicación web que permite a los usuarios gestionar sus tareas diarias con
+                    funcionalidades de agregar, editar y eliminar tareas.</p>
+                <a href="#">Ver más detalles</a>
+            </article>
+            <article>
+                <h3>Proyecto redes: Análisis de Sentimientos en Redes Sociales</h3>
+                <img src="https://via.placeholder.com/300" alt="Imagen del Proyecto de redes sociales">
+                <p>Descripción: Un proyecto que utiliza técnicas de procesamiento de lenguaje natural para analizar el
+                    sentimiento de los tweets y otros posts en redes sociales.</p>
+                <a href="#">Ver más detalles</a>
+            </article>
         </section>
-        <section>
-            <h3>Proyecto ilustrado</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quasi tenetur tempora cupiditate placeat temporibus officiis ipsa quae fuga suscipit. Ab veniam non asperiores fugiat sunt iusto, esse neque id!</p>
-            <img src="" alt="">
-            <a href="#">más detalles...</a>
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+
+            <ul>
+                <li><img src="https://via.placeholder.com/150" alt="Imagen 1"></li>
+                <li><img src="https://via.placeholder.com/150" alt="Imagen 2"></li>
+                <li><img src="https://via.placeholder.com/150" alt="Imagen 3"></li>
+                <li><img src="https://via.placeholder.com/150" alt="Imagen 4"></li>
+            </ul>
         </section>
-        <section>
-            <h3>Proyecto web</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quasi tenetur tempora cupiditate placeat temporibus officiis ipsa quae fuga suscipit. Ab veniam non asperiores fugiat sunt iusto, esse neque id!</p>
-            <img src="" alt="">
-            <a href="#">más detalles...</a>
+        <section id="contacto">
+            <h2>Contáctame</h2>
+            <form action="https://example.com/form" method="post">
+                
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
         </section>
+
+
     </main>
     <footer>
-
+        <p>&copy; 2024. Todos los derechos reservados.</p>
+        <p><a href="#top">Volver arriba</a></p>
     </footer>
 </body>
 </html>
