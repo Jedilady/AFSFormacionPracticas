@@ -1,0 +1,33 @@
+/* Estilo del título principal - de prueba*/
+h1 {
+    color: darkgreen;
+}
+h2 {
+    color:brown;
+    font-size: 2em;
+}
+
+html {
+    font-size: 16px;
+}
+
+.parrafo {
+    font-size: 20px;
+}
+/* Estilo del título del título principal*/
+h1 {/* este estilo prevalece sobre el h1 declarado antes por el orden en cascada*/
+    color:brown;
+    font-size: 3rem;
+}
+/* Estilo de divs con box-sizing y sin */
+.box, .no-box {
+    height: 45px;
+    width: 120px;
+    padding: 15px;
+    border: 1px rebeccapurple solid;
+}
+
+
+.box {
+    box-sizing: border-box;
+}

@@ -1,0 +1,56 @@
+/* Fuente Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* Estilo del Body */
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilo del título principal - de prueba*/
+h1 {
+    color: darkgreen;
+}
+
+/* Estilo de la capa primero */
+.primero {
+    font-size: 40px;
+    background-color: aquamarine;
+}
+
+/* Estilo del título del título principal*/
+h1 {/* este estilo prevalece sobre el h1 declarado antes por el orden en cascada*/
+    color:brown;
+    font-size: 3rem;
+}
+/*as*/
+
+/* Estilo del párrafo */
+p {
+    color: blue;
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+
+/* Estilo de div con box-sizing */
+
+.box {
+    box-sizing: border-box;
+    background-color: blueviolet;
+    width: 300px;
+    height: 50px;
+}
